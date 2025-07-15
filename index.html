@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title> 
+</head>
+<body>
+    <script>
+      let students = new Array('aaron','edwin','steve','nancy');
+      Array.prototype.displayItems = function(){
+           for(let i=0;i<this.length;i++) {
+             document.writeIn(this[i] +'<br>');
+            }
+       }
+     
+     document.write(`student array<br>`)
+     students.displayItems();//display using function
+    </script>
+</body>
+</html> 
